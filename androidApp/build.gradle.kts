@@ -50,4 +50,13 @@ dependencies {
     implementation("androidx.compose.foundation:foundation:1.4.3")
     implementation("androidx.compose.material:material:1.4.3")
     implementation("androidx.activity:activity-compose:1.7.2")
+
+    // Koin
+    implementation("io.insert-koin:koin-androidx-compose:3.4.5")
+    implementation("io.insert-koin:koin-androidx-compose-navigation:3.4.5")
+    implementation("io.insert-koin:koin-core:3.4.0")
+
+    // Compose navigation
+    implementation("androidx.navigation:navigation-compose:2.6.0")
+
 }
